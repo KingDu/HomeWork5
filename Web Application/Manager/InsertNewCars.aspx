@@ -33,12 +33,10 @@
             </UpdateParameters>
         </asp:SqlDataSource>
         <br />
-        <a href="default.aspx">Home</a>
-        <br />
         <a href="NewCarTable.aspx">View All New Cars</a>
         <br />
         <asp:DetailsView ID="DetailsView1" runat="server" AutoGenerateRows="False" DataKeyNames="Car_ID"
-            DataSourceID="SqlDataSource1" Height="50px" Width="531px" DefaultMode="Insert">
+            DataSourceID="SqlDataSource1" Height="50px" Width="531px" DefaultMode="Insert" CssClass="cssdetailsview" FieldHeaderStyle-CssClass="fieldheader" HeaderStyle-CssClass="header" ItemStyle-CssClass="item" AlternatingRowStyle-CssClass="altrow"  CommandRowStyle-CssClass="command" PagerStyle-CssClass="pager">
             <Fields>
                 <asp:BoundField DataField="Car_Make" HeaderText="Make" SortExpression="Car_Make" />
                 <asp:BoundField DataField="Car_Model" HeaderText="Model" SortExpression="Car_Model" />

@@ -2,7 +2,7 @@
     Inherits="detailsView" MasterPageFile="~/MasterPage.master" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
-    <link rel="stylesheet" type="text/css" href="./HW5-Style.css" />
+    <link rel="stylesheet" type="text/css" href="~/HW5-Style.css" />
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="Server">
     <div>
@@ -39,11 +39,8 @@
                 <asp:Parameter Name="Car_ID" Type="Int32" />
             </UpdateParameters>
         </asp:SqlDataSource>
-
-        <br />
-        <a href="default.aspx">Home</a>
-        <br />
-
+        </br>
+        </br>
         <a href="NewCarTable.aspx">View All New Cars</a>
         <br />
 
@@ -52,7 +49,7 @@
         <br />
         <asp:DetailsView ID="DetailsView1" runat="server" 
             AutoGenerateRows="False" DataKeyNames="Car_ID" DataSourceID="SqlDataSource1" 
-            Height="50px" Width="531px">
+            Height="50px" Width="531px" CssClass="cssdetailsview" FieldHeaderStyle-CssClass="fieldheader" HeaderStyle-CssClass="header" ItemStyle-CssClass="item" AlternatingRowStyle-CssClass="altrow" CommandRowStyle-CssClass="command" PagerStyle-CssClass="pager">
             <Fields>
                 <asp:BoundField DataField="Car_Make" HeaderText="Make" 
                     SortExpression="Car_Make" />

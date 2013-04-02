@@ -34,14 +34,12 @@
             </UpdateParameters>
         </asp:SqlDataSource>
         <br />
-        <a href="default.aspx">Home</a>
-        <br />
         <a href="InsertNewCars.aspx">Release a New Car</a>
         <br />
 
         <asp:GridView ID="GridView3" runat="server" AllowPaging="True" 
             AllowSorting="True" AutoGenerateColumns="False" DataKeyNames="Car_ID" 
-            DataSourceID="Cardealer_APP" Width="700px" CssClass="cssgridview" PageSize = "10">
+            DataSourceID="Cardealer_APP" Width="700px" CssClass="cssgridview" AlternatingRowStyle-CssClass="alt" PagerStyle-CssClass="pgr" PageSize = "10">
             <Columns>
                 <asp:BoundField DataField="Car_Make" HeaderText="Make" 
                     SortExpression="Car_Make" />
