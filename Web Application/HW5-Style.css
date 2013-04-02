@@ -1,0 +1,66 @@
+﻿#header{color:#F0F0F0; padding:2px; margin:0, auto; font-size:larger; font-style:oblique; font-family:Blackadder ITC; font-weight:900; border-bottom:2px solid black;}
+#menu{color:White; padding:10px; margin:0, auto;}
+#main {padding:10px; margin:0 auto;} 
+#footer{color:White; padding:10px; margin:0 auto;} 
+#OneSentence{color:white}
+#color1{color:#E8E8E8;
+    height: 197px;
+}
+#position1{position:absolute;
+   left:13px;
+   top:80px;
+   font-family:Blackadder ITC;}
+.position3{position:absolute;
+   left:435px;
+   top:227px;
+    width: 393px;
+    height: 176px;
+}
+
+   
+#center
+{
+    text-align:center;
+}
+
+body
+{
+    background:#780000
+}
+
+.Level1
+{
+    color:#F0F0F0;
+    background-color:#505050;
+    font-family:Times New Roman 
+    font-variant :small-caps;
+    font-size :large;
+    font-weight:bold;
+}
+
+.Level2
+{
+    color:black;
+    font-weight :bolder;
+    font-family: Script MT Bold; 
+    font-size :medium;
+}
+
+.Level3
+{
+    color:white;
+    background-color:blue;
+    font-size :small;
+    font-family :Gill Sans MT;
+}
+
+.position2{position:absolute;
+   left:20px;
+   top:450px;}
+.header_img{float:right; margin:0; border:0;}
+.loginposition{float:right;margin:0 border:0;}
+.deletedcarinformationhighlight{color:Red;font-style:italic; text-decoration:underline;}
+.cssgridview { width:100%; margin:5px 0 10px 0; border:solid 1px #525252; bordercollapse:collapse; text-align:center; font-family: "Comic Sans MS"; color: #7C6F57;
+background-color: #F7F6F3}
+.cssgridview td { padding:10px; border:solid 1px #c1c1c1; color:#717171; }
+
