@@ -3,6 +3,14 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" Runat="Server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
 The system is being developed, we will notify every employee when the system is up and running!
 </asp:Content>
 

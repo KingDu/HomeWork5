@@ -12,7 +12,6 @@ Partial Class detailsView
 
         Response.AddHeader("REFRESH", "3;URL=./NewCarTable.aspx")
 
-        'Response.Write("The car information has been successfully deleted!")
     End Sub
 
     Protected Sub DetailsView1_ItemUpdated(sender As Object, e As System.Web.UI.WebControls.DetailsViewUpdatedEventArgs) Handles DetailsView1.ItemUpdated
